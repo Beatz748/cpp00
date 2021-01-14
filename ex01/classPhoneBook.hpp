@@ -12,7 +12,7 @@ class PhoneBook
 {
 	private:
 		int		num;
-		Contact	contact[9];
+		Contact	contact[8];
 	public:
 				PhoneBook(){num = -1;};
 		void	ft_add();

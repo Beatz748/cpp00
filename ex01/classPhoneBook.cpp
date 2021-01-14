@@ -8,6 +8,11 @@ void	PhoneBook::ft_add()
 {
 	string input;
 
+	if (this->num >= 8)
+	{
+		cout << "🖕" << std::endl;
+		return;
+	}
 	this->num++;
 	cout << "✅\nenter first_name" << std::endl;
 	cin >> input;
@@ -52,10 +57,10 @@ void	PhoneBook::ft_search()
 	string	input;
 
 	i = -1;
-	cout << std::setw(10) <<  "index" << '|';
-	cout << std::setw(10) <<  "first name" << '|';
-	cout << std::setw(10) <<  "last name" << '|';
-	cout << std::setw(10) <<  "nickname" << '|' << std::endl;
+	cout << std::setw(10) <<  "index" << '|'
+			<< std::setw(10) <<  "first name" << '|'
+			<< std::setw(10) <<  "last name" << '|'
+			<< std::setw(10) <<  "nickname" << '|' << std::endl;
 	while (++i <= this->num)
 	{
 		cout << std::setw(10) <<  i << '|';

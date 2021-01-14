@@ -76,15 +76,26 @@ void	Contact::ft_print_credential()
 
 void	Contact::ft_list_info()
 {
-	std::cout << this->first_name << std::endl;
-	std::cout << this->last_name << std::endl;
-	std::cout << this->nickname << std::endl;
-	std::cout << this->login << std::endl;
-	std::cout << this->postal_address << std::endl;
-	std::cout << this->email_address << std::endl;
-	std::cout << this->phone_number << std::endl;
-	std::cout << this->birthday_date << std::endl;
-	std::cout << this->favorite_meal << std::endl;
-	std::cout << this->underwear_color << std::endl;
-	std::cout << this->darkest_secret << std::endl;
+	std::cout << "His first_name" << std::endl
+				<< this->first_name << std::endl
+				<< "His last_name" << std::endl
+				<< this->last_name << std::endl
+				<< "His nickname" << std::endl
+				<< this->nickname << std::endl
+				<< "His login" << std::endl
+				<< this->login << std::endl
+				<< "His postal_address" << std::endl
+				<< this->postal_address << std::endl
+				<< "His email_address" << std::endl
+				<< this->email_address << std::endl
+				<< "His phone_number" << std::endl
+				<< this->phone_number << std::endl
+				<< "His birthday_date" << std::endl
+				<< this->birthday_date << std::endl
+				<< "His favorite_meal" << std::endl
+				<< this->favorite_meal << std::endl
+				<< "His underwear_color" << std::endl
+				<< this->underwear_color << std::endl
+				<< "His darkest_secret" << std::endl
+				<< this->darkest_secret << std::endl;
 }
