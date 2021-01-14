@@ -1,4 +1,4 @@
-SRCS		= megaphone.cpp
+SRCS		= classContact.cpp classPhoneBook.cpp main.cpp
 
 DIR_OBJS		= ./obj/
 
@@ -8,9 +8,9 @@ OBJS		=	$(SRCS:%.cpp=$(DIR_OBJS)%.o)
 
 CC			= clang++
 
-CC_FLAGS	= -Wall -Wextra -Werror
+CC_FLAGS	= -Wall -Wextra -Werror -g
 
-NAME		= megaphone
+NAME		= phonebook
 
 RM			= rm -rf
 

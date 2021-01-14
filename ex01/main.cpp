@@ -9,7 +9,7 @@ int	main()
 	while (42)
 	{
 		std::cout << "ENTER : \033[0;32mSEARCH | \033[0;33mADD";
-		std::cout << " | \033[0;35mEXIT |\033[0m" << std::endl;
+		std::cout << " | \033[0;35mEXIT |\033[0m" << std::endl << std::endl;
 		std::cin >> input;
 		if (!(input.compare("ADD")))
 			book.ft_add();
@@ -18,6 +18,6 @@ int	main()
 		else if (!(input.compare("EXIT")))
 			break;
 		else
-			std::cout << "\033[33mlol ar u ok?\033[0m💩\n";
+			std::cout << "\033[33m\nlol ar u ok?\033[0m💩\n" << std::endl;
 	}
 }
