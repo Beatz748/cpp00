@@ -8,7 +8,7 @@ void	PhoneBook::ft_add()
 {
 	string input;
 
-	if (this->num >= 8)
+	if (this->num >= 7)
 	{
 		cout << "🖕" << std::endl;
 		return;
